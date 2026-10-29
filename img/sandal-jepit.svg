@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600"><rect width="600" height="600" fill="#FF7A1A"/><defs>
+<filter id="st" x="-20%" y="-20%" width="140%" height="140%">
+ <feMorphology in="SourceAlpha" operator="dilate" radius="10" result="w"/>
+ <feFlood flood-color="#ffffff"/><feComposite in2="w" operator="in" result="white"/>
+ <feMorphology in="SourceAlpha" operator="dilate" radius="14" result="k"/>
+ <feFlood flood-color="#1A1033"/><feComposite in2="k" operator="in" result="ink"/>
+ <feOffset in="ink" dx="8" dy="10" result="sh"/>
+ <feMerge><feMergeNode in="sh"/><feMergeNode in="ink"/><feMergeNode in="white"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4F6F8"/><stop offset=".5" stop-color="#9AA3AF"/><stop offset="1" stop-color="#E2E6EA"/></linearGradient>
+</defs><circle cx="300" cy="92" r="50" fill="none" stroke="#1A1033" stroke-width="15"/><circle cx="300" cy="92" r="50" fill="none" stroke="url(#metal)" stroke-width="9"/><ellipse cx="300" cy="150" rx="9" ry="14" fill="none" stroke="#1A1033" stroke-width="8"/><ellipse cx="300" cy="150" rx="9" ry="14" fill="none" stroke="url(#metal)" stroke-width="4"/><g filter="url(#st)"><path d="M300 165 C390 165 420 250 405 330 C392 400 400 450 380 500 C360 545 240 545 220 500 C200 450 208 400 195 330 C180 250 210 165 300 165 Z" fill="#2F7DE1" stroke="#1A1033" stroke-width="5"/>
+<path d="M300 180 C375 182 398 250 386 325 C375 392 382 445 366 488 C350 525 250 525 234 488 C218 445 225 392 214 325 C202 250 225 182 300 180 Z" fill="#fff"/>
+<path d="M300 215 L230 330 M300 215 L370 330" stroke="#2F7DE1" stroke-width="26" stroke-linecap="round"/>
+<circle cx="300" cy="215" r="14" fill="#2F7DE1" stroke="#1A1033" stroke-width="4"/>
+<rect x="225" y="400" width="150" height="62" rx="12" fill="#FFE45C" stroke="#1A1033" stroke-width="4" transform="rotate(-6 300 431)"/>
+<text x="300" y="425" font-family="Arial Black,Arial" font-weight="900" font-size="19" text-anchor="middle" fill="#1A1033" transform="rotate(-6 300 431)">JANGAN</text>
+<text x="300" y="450" font-family="Arial Black,Arial" font-weight="900" font-size="19" text-anchor="middle" fill="#1A1033" transform="rotate(-6 300 431)">DIPINJAM</text></g></svg>
